@@ -1,0 +1,23 @@
+.header-tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 2.2em;
+  padding: 10px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  width: 450px;
+  &:hover{
+    background-color: blue;
+  }
+  &:active{
+    background-color: blueviolet;
+  }
+}
